@@ -11,9 +11,11 @@ export const App = ()=>{
 
   return(
     <>
-     {/* <TareasComponent/> */}
+     
 
-    <GestorTarjetas></GestorTarjetas>
+   <GestorTarjetas></GestorTarjetas> 
+
+   <TareasComponent/>  
     </>
   );
 }
