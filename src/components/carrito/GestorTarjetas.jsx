@@ -8,19 +8,19 @@ export const GestorTarjetas = ()=>{
    {
     id:1,
     name:'Donut Premium Pirulin Arequipe',
-    img:'src/assets/caja.webp'
+    img:'src/assets/pirulin.webp'
    },
 
    {
     id:2,
     name:'Combo Flat + Frutibatido',
-    img:'src/assets/caja.webp'
+    img:'src/assets/combo-flat.webp'
    },
 
    {
     id:3,
     name:'Sándwich Omwich + Coca-Cola',
-    img:'src/assets/caja.webp'
+    img:'src/assets/sandwich.webp'
    },
 
    {
@@ -33,8 +33,10 @@ export const GestorTarjetas = ()=>{
 
   return(
 
-    
-      <ListaTarjetas tarjetas={tarjetas}></ListaTarjetas>
+    <div className="mt-2 ml-2">
+      <ListaTarjetas  tarjetas={tarjetas}></ListaTarjetas>
+    </div>
+      
     
   );
 
