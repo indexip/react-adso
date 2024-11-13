@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { TareasComponent } from "./components/tareas/TareasComponent";
-import { ListaTarjetas } from "./components/carrito/ListaTarjetas";
-import { GestorTarjetas } from "./components/carrito/GestorTarjetas";
+import { Adso } from "./Adso";
+
 
 
 
@@ -10,12 +10,6 @@ export const App = ()=>{
  
 
   return(
-    <>
-     
-
-   <GestorTarjetas></GestorTarjetas> 
-
-   <TareasComponent/>  
-    </>
+      <Adso></Adso>
   );
 }
